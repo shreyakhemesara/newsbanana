@@ -9,8 +9,7 @@ import {
 } from 'react-router-dom';
 
 const App = () => {
-  const apikey = process.env.REACT_APP_API_KEY;
-
+  const apikey = process.env.REACT_APP_API_KEY || "02ff76819175478bb254b4806e014427";
   return (
     <Router>
       <NavBar />
